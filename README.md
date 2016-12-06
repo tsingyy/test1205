@@ -4,20 +4,29 @@
   git init test
 #½øÈëÄ¿Â¼
 cd test
-#ĞÂ½¨Ò»¸ö°°üº¬123ÄÚÈİ¶µÄa.txtÎÄ¼ş
+#ĞÂ½¨Ò»¸ö°üº¬123ÄÚÈİ·µÄa.txtÎÄ¼ş
 echo "123">a.txt
 #git add
   git add a.txt
-   //¼ÆËãa.txtµÎÄ¼şµÄhashÖµ£¬½½«ÎÄ¼ş·ÅÈëÔİ´æÇø£index£¬Éú³ÉblobÀàĞÍÎÄ¼ş
+   //¼ÆËãa.txtµµÄhashÖµ£¬½«ÎÄ¼ş·ÅÈëÔİ´æÇø£index£¬Éú³ÉblobÀàĞÍÎÄ¼ş
 #Ìá½»
 git commit -m "ĞÂ½¨a.txt"
-   ¡¡¡//¼ÆËãÄ¿Â¼µÄhashÖµ£¬Éú³ÉtreeÀàĞÍºÍcommitÀàĞÍµÄgit¶ÔÏó
+   ¡¡//¼ÆËãÄ¿Â¼µÄhashÖµ£¬Éú³ÉtreeÀàĞÍºÍcommitÀàĞÍµÄgit¶ÔÏó
 #ÏÔÊ¾log
 git log --oneline
+
 git log --oneline --all
+
 git log --oneline --alll --decorate
+
 git log --oneline --all --decorate --graph
 Í¼ĞÎ»¯ÏÔÊ¾ÀúÊ·
-#Ã½«ÃüÁîÃüÃû¼ò»¯
+#ÃÓÃloggÃüÁî´úÌæÄÇÒ»³¤´®ÃüÁî£¬ºóĞø²Ù×÷µÄÊ±ºòÖ»ÓÃlogg¼´¿É
  git config alias.logg "log --oneline --all --decorate --graph"
+#ÖĞÎÄÊäÈë£¬¼ì²éÊÇ·ñ»¹»á´æÔÚÒì³£
+°¡°¡°¡°¡°¡Å¶Å¶Å¶Å¶Å¶Å¶Å¶Å¶Å¶
+àÅàÅàÅàÅàÅàÅÃ¿ÌìµÄ¹¤×÷
+#git logÄÚÈİÌ«¶àÊ±£¬Ó¢ÎÄ×´Ì¬ÏÂÊäÈëQ£¬¼´¿ÉÍË³ö
+²Ù×÷
+#ĞÂ½¨Ò»¸ö°üº¬123µÄa.txtÎÄ¼ş
 
