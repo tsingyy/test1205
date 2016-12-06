@@ -25,3 +25,16 @@ git remote -v
 #移除之前的远程仓库
 git remote rm origin
 
+#branch 分支操作
+新建分支：
+git branch [branch name]
+切换到分支
+git checkout [branch name]
+
+对文件做修改
+vim git-to.md
+保存修改之后提交
+git commit -a -m 'do same changes-111'
+切回分支master
+git checkout master
+
