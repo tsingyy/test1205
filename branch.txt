@@ -1,0 +1,22 @@
+branch operate
+git branch bug1
+   新建一个bug1的分支
+
+git checkout bug1
+   切换至bug1分支
+
+git branch
+   显示所有分支
+
+l .git/refs/heads
+显示分支
+
+ cat .git/refs/heads/master
+ 文件内容，显示对应hash值
+
+ cat.git/HEAD
+   HEAD记录当前工作的分支
+ 
+ 空提交
+ git commit --allow-empty -m "空的提交
+
